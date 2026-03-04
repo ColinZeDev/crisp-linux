@@ -9,18 +9,24 @@
 | Component        | Choice                            |
 |------------------|-----------------------------------|
 | Base             | LFS (Linux From Scratch)          |
-| Init System      | runit                             |
-| Bootloader       | Limine                            |
 | Kernel           | Slightly Tweaked Linux Zen        |
+| Init System      | runit                             |
 | Base System      | glibc + GNU coreutils             |
+| C Compiler       | GCC                               |
 | Filesystem       | btrfs (with snapshots)            |
-| Display Server   | Wayland                           |
-| Default Shell    | Z Shell (zsh)                     |
+| Bootloader       | Limine                            |
 | Network Manager  | iwd + dhcpcd                      |
-| Package Manager  | SOBI (details below)              |
-| Greeter          | ly                                |
-| DE/WM            | XFCE (pre-configured/riced)       |
+| Audio Server     | PipeWire                          |
 | Privilege Tool   | doas (replaces sudo)              |
+| Default Shell    | Z Shell (zsh)                     |
+| Text Editor      | nano (base install)               |
+| Package Manager  | SOBI (details below)              |
+| Display Server   | Wayland                           |
+| Greeter          | ly or emptty (user choice)        |
+| DE/WM            | XFCE (pre-configured/riced)       |
+| Terminal App     | Kitty (pre-configured)            |
+| File Manager     | Thunar (pre-configured)           |
+| Browser          | Firefox ESR                       |
 
 ---
 
