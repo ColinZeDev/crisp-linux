@@ -26,7 +26,7 @@
 
 ## Package Manager: SOBI
 
-> ***Source or Binary Installer***
+> ***S**ource **o**r **B**inary **I**nstaller*
 
 SOBI is CRISP's native package manager. It supports installing from binary or source, with a smart default that prefers binaries and falls back to source automatically when no binary is available.
 
