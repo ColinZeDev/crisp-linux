@@ -71,6 +71,7 @@ REPOS:
     Source: "https://repo.crisplinux.sh/community/source/"
     Enabled: true
 ```
+> ^ *(This is not complete and will probably change with time)*
 
 ---
 
