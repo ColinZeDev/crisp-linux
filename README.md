@@ -94,7 +94,7 @@ The config will live in `/etc/doas.conf` and can be configured via a custom GUI 
 ---
 
 ### Installation Overview
-On boot, the live ISO drops into a TTY where the user will login with the user `root` *(the password is `crispy`)*. Running install launches a TUI installer that walks through locale, timezone, hostname, user setup, and bootloader configuration. Disk partitioning is handled manually using `cfdisk` (recommended) or `fdisk`, giving the user full control over their layout before installation begins.
+On boot, the live ISO drops into a TTY where the user will login with the username `root` *(the password is `crispy`)*. Running install launches a TUI installer that walks through locale, timezone, hostname, user setup, and bootloader configuration. Disk partitioning is handled manually using `cfdisk` (recommended) or `fdisk`, giving the user full control over their layout before installation begins.
 
 ---
 
