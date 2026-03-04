@@ -105,7 +105,7 @@ On boot, the live ISO drops into a TTY as root. Running install launches a TUI i
 1. **OSDevs and SOBI Developers** - nothing exists without them
 2. **Infrastructure/Ops** - needed before anything is publicly usable
 3. **Documentation and QA** - needed before any public release
-4. **Everything else once** the project has something real to show
+4. **Everything else** - Once the project has something real to show
 
 ---
 
