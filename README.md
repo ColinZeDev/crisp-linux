@@ -53,6 +53,24 @@ SOBI is CRISP's native package manager. It supports installing from binary or so
 
 `.sobi` is SOBI's portable package format, similar to `.deb` or `.rpm`. It allows packages to be distributed and installed locally or offline without needing a network connection to a repo.
 
+### Repos
+The repos are stored in `/etc/sobi.d/repos.yml` and this is what an example would look like:
+```yaml
+# Example Repos file
+Keyring: "https://repo.crisplinux.sh/public.gpg"
+
+REPOS:
+  Main:
+    Binary: "https://repo.crisplinux.sh/main/binaries/"
+    Source: "https://repo.crisplinux.sh/main/source/"
+    Enabled: true
+
+  Community:
+    Binary: "https://repo.crisplinux.sh/community/binaries/"
+    Source: "https://repo.crisplinux.sh/community/source/"
+    Enabled: true
+```
+
 ---
 
 ### Installation Overview
