@@ -126,3 +126,5 @@ On boot, the live ISO drops into a TTY as root. Running install launches a TUI i
 ---
 ### About CRISP & SOBI
 CRISP GNU/Linux is a concept I hope to make real one day. The core idea behind SOBI came from a frustration with having to commit to either a source-based distro (like Gentoo) or a binary-based one (like Arch). Why not both? SOBI takes Portage's philosophy of building from source when it matters, and pairs it with the convenience of binaries when it doesn't.
+
+> *If you wanna help work on this contact me via Github messages :)*
