@@ -53,7 +53,6 @@ SOBI is CRISP's native package manager. It supports installing from binary or so
 
 `.sobi` is SOBI's portable package format, similar to `.deb` or `.rpm`. It allows packages to be distributed and installed locally or offline without needing a network connection to a repo.
 
-
 ### Repositories
 The repos are stored in `/etc/sobi.d/repos.yml` and this is what an example would look like:
 ```yaml
@@ -75,8 +74,27 @@ REPOS:
 
 ---
 
+### DOAS Overview
+doas will come with a pre-configured & locked down configuration that will look something like this:
+```conf
+# Allow wheel group to run any command
+permit persist :doasperm
+
+# Allow wheel to run specific commands without password
+permit nopass :doasperm cmd /sbin/reboot
+permit nopass :doasperm cmd /sbin/shutdown
+permit nopass :doasperm cmd /sbin/poweroff
+```
+The config will live in `/etc/doas.conf` and can be configured via a custom GUI made by the CRISP team. *(the GUI can only be used by root or users in the **doasperm** group)*
+
+- **NOTE:** During installation, while making a user the TUI will ask the user **"Should this user have admin privileges?"** This will determine whether that user is in the **doasperm** group or not.
+
+> ***doasperm** is the group CRISP uses instead of the usual **wheel** group*
+
+---
+
 ### Installation Overview
-On boot, the live ISO drops into a TTY as root. Running install launches a TUI installer that walks through locale, timezone, hostname, user setup, and bootloader configuration. Disk partitioning is handled manually using `cfdisk` (recommended) or `fdisk`, giving the user full control over their layout before installation begins.
+On boot, the live ISO drops into a TTY where the user will login with the user `root` *(the password is `crispy`)*. Running install launches a TUI installer that walks through locale, timezone, hostname, user setup, and bootloader configuration. Disk partitioning is handled manually using `cfdisk` (recommended) or `fdisk`, giving the user full control over their layout before installation begins.
 
 ---
 
