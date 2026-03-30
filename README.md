@@ -23,7 +23,7 @@
 | Text Editor      | nano (base install)               |
 | Package Manager  | SOBI (details below)              |
 | Display Server   | Wayland                           |
-| Greeter          | ly or emptty (user choice)        |
+| Greeter          | user choice                       |
 | DE/WM            | XFCE (pre-configured/riced)       |
 | Terminal App     | Kitty (pre-configured)            |
 | File Manager     | Thunar (pre-configured)           |
