@@ -22,7 +22,7 @@
 | Default Shell    | Z Shell (zsh)                     |
 | Text Editor      | nano (base install)               |
 | Package Manager  | SOBI (details below)              |
-| Display Server   | Wayland                           |
+| Display Server   | X11                               |
 | Greeter          | user choice                       |
 | DE/WM            | XFCE (pre-configured/riced)       |
 | Terminal App     | Kitty (pre-configured)            |
