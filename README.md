@@ -14,7 +14,7 @@
 | Base System      | glibc + GNU coreutils             |
 | C Compiler       | GCC                               |
 | Filesystem       | btrfs (with snapshots)            |
-| Bootloader       | Limine                            |
+| Bootloader       | Limine or GRUB (user choice)      |
 | Network Manager  | iwd + dhcpcd                      |
 | Audio Server     | PipeWire                          |
 | Boot Splash      | Plymouth (custom CRISP theme)     |
