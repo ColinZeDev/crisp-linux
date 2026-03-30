@@ -20,7 +20,7 @@
 | Boot Splash      | Plymouth (custom CRISP theme)     |
 | Privilege Tool   | doas (replaces sudo)              |
 | Default Shell    | Z Shell (zsh)                     |
-| Text Editor      | nano (base install)               |
+| Text Editor      | neovim with lazyvim conf          |
 | Package Manager  | SOBI (details below)              |
 | Display Server   | X11                               |
 | Greeter          | user choice                       |
